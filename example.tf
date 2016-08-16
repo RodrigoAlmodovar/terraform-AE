@@ -7,5 +7,5 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami           = "ami-48db9d28"
   instance_type = "t2.micro"
-  subnet_id	= "aed731ca"
+  subnet_id	= "subnet-aed731ca"
 }
