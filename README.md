@@ -1,4 +1,4 @@
-#Terraform-AWS
+Terraform-AWS
 ===========
 
 This project builds an autoscalable system in AWS by creating an ELB, a launch configuration and an autoscaling group in the same way as the previous projects jenkins&AWS and awscli.
@@ -15,7 +15,7 @@ Create an VPC, Subnets and Security Groups.
 - ELB must be reachable by HTTP
 
 ##2. Terraform magic
-- Clone the repository to your local folder:
+Clone the repository to your local folder:
 
 
     $ git clone https://RodrigoAlmodovar_sng@bitbucket.org/RodrigoAlmodovar_sng/terraform-aws.git
@@ -28,7 +28,7 @@ Whenever you decide to destroy your project:
     $ teraform destroy
 
 
-##Explanation
+Explanation
 ===========
 ###createArchitecture.tf
 Terraform file that will be loaded and runned. It creates the whole architecture calling the variables.tf file.
